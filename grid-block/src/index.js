@@ -2,7 +2,7 @@
  * Registers a new block.
  */
 import { registerBlockType } from '@wordpress/blocks';
-import metadata from './../block.json';
+import metadata from '../block.json';
 
 const { name } = metadata;
 export { metadata, name };
