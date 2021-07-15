@@ -2,8 +2,6 @@
  * Registers a new block.
  */
 import { registerBlockType } from '@wordpress/blocks';
-
-// TODO: WHY?? I got this from the blocks repo.
 import metadata from './../block.json';
 
 const { name } = metadata;
@@ -23,8 +21,10 @@ import save from './save';
 registerBlockType( 'create-block/grid-block', {
 	edit,
 	save,
-	// Adds extra attributes data.
-	getEditWrapperProps( attributes ) {
-		
-	},
+	/**
+	 * Adds extra attributes data 
+	 * But not needed when passing the ones in the block.json file.
+	 * 
+	 * getEditWrapperProps( attributes ) { },
+	 */
 } );

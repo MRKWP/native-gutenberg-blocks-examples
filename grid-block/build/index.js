@@ -267,7 +267,6 @@ var _block_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_
 /**
  * Registers a new block.
  */
- // TODO: WHY?? I got this from the blocks repo.
 
 
 const {
@@ -287,10 +286,13 @@ const {
 
 Object(_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__["registerBlockType"])('create-block/grid-block', {
   edit: _edit__WEBPACK_IMPORTED_MODULE_3__["default"],
-  save: _save__WEBPACK_IMPORTED_MODULE_4__["default"],
-
-  // Adds extra attributes data.
-  getEditWrapperProps(attributes) {}
+  save: _save__WEBPACK_IMPORTED_MODULE_4__["default"]
+  /**
+   * Adds extra attributes data 
+   * But not needed when passing the ones in the block.json file.
+   * 
+   * getEditWrapperProps( attributes ) { },
+   */
 
 });
 
