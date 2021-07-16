@@ -1,9 +1,12 @@
 # Native Gutenberg Block Examples for the Block Editor.
 
-## Available Blocks
+## Available Block Examples.
 
-### Grid Block
+### Grid Block (grid-block).
 This is a block with a Range control to change the number of columns added as a class to the holding `HTML div`. You can then make it change by `CSS` or `SCSS` for that matter.
+
+### Toggle Block (toggle-block).
+Add a dynamic `custom-class` style class to your block markup using a toggle control. This block also shows you to add a hard coded block attribute using `data-id` as an example.
 
 ## How to use
 
@@ -29,3 +32,5 @@ npm install
 ```
 npm start
 ``` 
+
+**Note:** The block will not work without you running step 5 above. The `build` directory is left out on purpose to allow the build process to be run.

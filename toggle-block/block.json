@@ -1,0 +1,21 @@
+{
+	"apiVersion": 2,
+	"name": "create-block/toggle-block",
+	"title": "Toggle Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"attributes": {
+		"lightbox": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"description": "Switch on lightbox class in html.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "toggle-block",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
