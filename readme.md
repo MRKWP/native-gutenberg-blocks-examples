@@ -8,6 +8,8 @@ This is a block with a Range control to change the number of columns added as a 
 ### Toggle Block (toggle-block).
 Add a dynamic `custom-class` style class to your block markup using a toggle control. This block also shows you to add a hard coded block attribute using `data-id` as an example.
 
+![Toggle Block Sample](screenshots/toggle-block.gif)
+
 ## How to use
 
 1. Clone the repo to your local computer using:
